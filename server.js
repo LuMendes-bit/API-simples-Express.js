@@ -13,7 +13,7 @@ app.get('/sobre',function(request, response){
 
 app.get('/alunos',function(request, response){
     console.log("rota /alunos acessada")
-    response.send("lista de alunos: [Lucas],[Mathe]")
+    response.send("lista de alunos: [Lucas],[Matheus]")
 })
 
 app.get('/professor',function(request, response){
